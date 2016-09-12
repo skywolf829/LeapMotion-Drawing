@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drawing.CSharp.Plugins", "Drawing.CSharp.Plugins.csproj", "{D8692225-3746-72BE-90A8-4ACAE9EA15E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drawing.CSharp", "Drawing.CSharp.csproj", "{597C2734-F77F-7FE4-6890-013207538227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drawing.CSharp.Editor", "Drawing.CSharp.Editor.csproj", "{7E3877A9-28FF-36DC-85FA-5F0646EA800C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8692225-3746-72BE-90A8-4ACAE9EA15E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8692225-3746-72BE-90A8-4ACAE9EA15E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8692225-3746-72BE-90A8-4ACAE9EA15E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8692225-3746-72BE-90A8-4ACAE9EA15E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597C2734-F77F-7FE4-6890-013207538227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597C2734-F77F-7FE4-6890-013207538227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597C2734-F77F-7FE4-6890-013207538227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597C2734-F77F-7FE4-6890-013207538227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E3877A9-28FF-36DC-85FA-5F0646EA800C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E3877A9-28FF-36DC-85FA-5F0646EA800C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E3877A9-28FF-36DC-85FA-5F0646EA800C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E3877A9-28FF-36DC-85FA-5F0646EA800C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
