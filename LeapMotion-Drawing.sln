@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{942850E6-CD47-91AF-50CB-8CA230DC8B83}") = "LeapMotion-Drawing", "Assembly-CSharp-firstpass.csproj", "{DEE3A1E7-F396-EB8F-344E-92DE64FB1794}"
+EndProject
+Project("{942850E6-CD47-91AF-50CB-8CA230DC8B83}") = "LeapMotion-Drawing", "Assembly-CSharp.csproj", "{E0150CBB-933E-8D0C-A4D5-B14B49122183}"
+EndProject
+Project("{942850E6-CD47-91AF-50CB-8CA230DC8B83}") = "LeapMotion-Drawing", "Assembly-CSharp-Editor.csproj", "{04D91CE5-1070-68FA-921A-F8AFA5E452C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEE3A1E7-F396-EB8F-344E-92DE64FB1794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE3A1E7-F396-EB8F-344E-92DE64FB1794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE3A1E7-F396-EB8F-344E-92DE64FB1794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE3A1E7-F396-EB8F-344E-92DE64FB1794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0150CBB-933E-8D0C-A4D5-B14B49122183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0150CBB-933E-8D0C-A4D5-B14B49122183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0150CBB-933E-8D0C-A4D5-B14B49122183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0150CBB-933E-8D0C-A4D5-B14B49122183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D91CE5-1070-68FA-921A-F8AFA5E452C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D91CE5-1070-68FA-921A-F8AFA5E452C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D91CE5-1070-68FA-921A-F8AFA5E452C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D91CE5-1070-68FA-921A-F8AFA5E452C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

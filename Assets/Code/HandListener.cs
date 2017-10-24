@@ -15,7 +15,7 @@ public class HandListener : MonoBehaviour
     private const float SLIDER_HEIGHT = 1.27f;
 
     public GameObject LeapHandController, mainCamera;
-    public GameObject drawingPrefab, huePrefab, saturationPrefab, alphaPrefab, rightIndexFingerLight;
+    public GameObject drawingPrefab, huePrefab, saturationPrefab, alphaPrefab;
 
     private GameObject leftHand, rightHand;
     private GameObject hue, saturation, alpha;
@@ -28,7 +28,7 @@ public class HandListener : MonoBehaviour
 
     private float hueSliderHeightPercentage;
 
-    private bool rightHandIndexPinching, leftHandInterfaceActive, drawingPositionReset, rightIndexLightEnabled;
+    private bool rightHandIndexPinching, leftHandInterfaceActive, drawingPositionReset;
 
     void Start()
     {
@@ -153,7 +153,6 @@ public class HandListener : MonoBehaviour
     void updateRightHand()
     {
         updateRightIndexPinching();
-        updateLight();
         rightHandActions();
     }
 
@@ -183,36 +182,6 @@ public class HandListener : MonoBehaviour
         }
     }
 
-    void updateLight()
-    {
-        if (rightHandIndexPinching)
-        {
-            if (rightIndexLightEnabled)
-            {
-                rightIndexFingerLight.SetActive(false);
-                rightIndexLightEnabled = false;
-            }
-        }
-        else
-        {
-            if (rightIndexLightEnabled)
-            {
-                rightIndexFingerLight.transform.position = rightHandModel.fingers[1].bones[3].position;
-                rightIndexFingerLight.transform.rotation = rightHandModel.fingers[1].bones[3].rotation;
-                rightIndexFingerLight.GetComponent<Light>().color = savedColor;
-            }
-
-            else
-            {
-                rightIndexFingerLight.SetActive(true);
-                rightIndexLightEnabled = true;
-                rightIndexFingerLight.transform.position = rightHandModel.fingers[1].bones[3].position;
-                rightIndexFingerLight.transform.rotation = rightHandModel.fingers[1].bones[3].rotation;
-                rightIndexFingerLight.GetComponent<Light>().color = savedColor;
-            }
-        }        
-    }
-    
 
     void rightHandActions()
     {
